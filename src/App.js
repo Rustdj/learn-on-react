@@ -17,8 +17,8 @@ const App = () => {
     <div className={style.App}>
       <header className={style.AppHeader}>
         <img src={logo} className={style.AppLogo} alt="logo" />
-        <Button count={count} onclick={handleClick} />
-        <Button count={count} onclick={handleClick} />
+        <Button count={count} onClick={handleClick} />
+        <Button count={count} onClick={handleClick} />
         <User />
       </header>
       
