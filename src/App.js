@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import style from './App.module.css';
 import  Button  from './btn/Button';
 import { User } from './user-data/User';
+import Board from './tic-tac-toe/Board';
 
 
 
@@ -20,6 +21,7 @@ const App = () => {
         <Button count={count} onClick={handleClick} />
         <Button count={count} onClick={handleClick} />
         <User />
+        <Board />
       </header>
       
     </div>
