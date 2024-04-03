@@ -1,10 +1,19 @@
 import React from "react";
 import style from "./ticTacToe.module.css";
 
-export default function Square({value}) {
+export default function Square({value, onSquareClick}) {
+    
+    
+
+
     return (
         <>
-            <button className={style.square}>{value}</button>
+            <button 
+            className={style.square} 
+            onClick={onSquareClick}
+            >
+                {value}
+            </button>
         </>
     )
 }
